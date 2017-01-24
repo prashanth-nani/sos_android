@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item
+        android:id="@+id/location_tracker"
+        android:icon="@drawable/ic_location"
+        android:title="Location Tracker"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/Voice"
+        android:icon="@drawable/ic_voice"
+        app:showAsAction="ifRoom"
+        android:title="Voice"/>
+
+    <item
+        android:id="@+id/selfHelp"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="Self Help"/>
+    <item
+        android:id="@+id/About"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="About"/>
+
+    <item
+        android:id="@+id/fallSense"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="Fall Sense"/>
+</menu>
